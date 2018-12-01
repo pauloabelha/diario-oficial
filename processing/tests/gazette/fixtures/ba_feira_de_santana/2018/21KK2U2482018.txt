@@ -1,0 +1,77 @@
+                                                           source_text                                                            
+----------------------------------------------------------------------------------------------------------------------------------
+                                 ANO IV - EDIÇÃO 484 – DATA 25/08/2018                                                           +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+            ANO I - EDIÇÃO 11 – DATA 17/06/2015                                                                                  +
+                                                                                                                                 +
+                                                                                                                                 +
+            ANO IV - EDIÇÃO 484 – DATA 25/08/2018                                                                                +
+ SUMÁRIO                                                                                                                         +
+ PODER LEGISLATIVO                                                                                                               +
+    ALTERAÇÃO DE EDITAL                                                                                                         +
+ \x0C                                                                          ANO IV - EDIÇÃO 484 – DATA 25/08/2018             +
+                                                                                                                                 +
+                                          ALTERAÇÃO DE EDITAL                                                                    +
+                                  CÂMARA MUNICIPAL DE FEIRA DE SANTANA                                                           +
+                                                                                                                                 +
+                                                CNPJ: 14.488.415/0001-60                                                         +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                ALTERAÇÃO DE EDITAL                                                              +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+              A Comissão Permanente de Licitações da Câmara Municipal de Feira de Santana, de acordo com a Lei Federal nº        +
+ 8.666/93, Lei Estadual nº 9.433/95 e Lei Municipal 2.593/05, comunica aos interessados na Licitação 007/2018, Processo          +
+ Administrativo 095/2018, na modalidade Tomada de Preços 02/2018 – Tipo: Técnica e Preço, Objeto: Contratação de pessoa jurídica,+
+ do ramo de atividade pertinente, para locação de softwares de Sistema Integrado de Gestão com hospedagem de banco de dados,     +
+ manutenção adaptativa, corretiva e evolutiva dos seguintes softwares: Folha de Pagamento web, Portal de Atendimento do Servidor +
+ Municipal, Patrimônio web, Controle de Almoxarifado web, para a Câmara Municipal de Feira de Santana, pelo período de 12 (doze) +
+ meses, de acordo com as condições e exigências estabelecidas no Edital e em seus Anexos, Publicado no Jornal Folha do Estado    +
+ em 17/07/2018 e no Diário Oficial Eletrônico do Município de Feira de Santana, Edição nº 468, de 17/07/2018, que foram          +
+ procedidas às seguintes alterações no Edital: Exclusão dos Itens 6 e 9 do quadro do Item 4 (ESPECIFICAÇÕES TÉCNICAS             +
+ MÍNIMAS DO SISTEMA); Alteração na redação das letras B.1 e B.2 do subitem 10.4 do Item 10 (JULGAMENTO); e Alteração na          +
+ redação do subitem “A4” do Item 8 (PROPOSTA TÉCNICA) que passa ter a seguinte redação: “Deverá ser apresentada junto a          +
+ proposta técnica documento comprobatório da propriedade dos softwares ou contrato de parceria técnica comercial”. A data de     +
+ abertura do certame também será alterada para o dia 27 de setembro de 2018, às 9 horas (horário de Brasília – DF), na Sala de   +
+ Reunião, no pavimento térreo no Prédio Anexo da Câmara Municipal de Feira de Santana, na Rua Intendente Rui, 155 – Centro. O    +
+ Edital     encontra-se     à   disposição    dos   interessados    na     Sede    da   Câmara     ou     através   do    portal:+
+ http://transparencia.feiradesantana.ba.leg.br.                                                                                  +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                             Feira de Santana, 24 de agosto de 2018.                                             +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                   Marloy Antonio de Santana                                                     +
+                                                                                                                                 +
+                                                       Presidente da CPL                                                         +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                   JOSE                            Assinado de forma digital por JOSE                            +
+                                                                   CARNEIRO ROCHA:20218842520                                    +
+                                                                                                                                 +
+                                   CARNEIRO                        DN: c=BR, o=ICP-Brasil,                                       +
+                                                                   ou=Secretaria da Receita Federal                              +
+                                                                   do Brasil - RFB, ou=RFB e-CPF A3,                             +
+                                                                                                                                 +
+                                   ROCHA:2021                      ou=(EM BRANCO), ou=AR                                         +
+                                                                   SAFECHECK, cn=JOSE CARNEIRO                                   +
+                                                                   ROCHA:20218842520                                             +
+                                   8842520                         Dados: 2018.08.24 13:24:22 -03'00'                            +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                                 +
+                                                                                                                               1 +
+ \x0C
+(1 row)
+
