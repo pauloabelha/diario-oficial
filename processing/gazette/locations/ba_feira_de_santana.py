@@ -9,6 +9,9 @@ class BaFeiraDeSantana(BaseParser):
     BIDDING_EXEMPTIONS_MARKER_REGEXP = re.compile(
         r".*Dispensa de Licitação", re.IGNORECASE
     )
+    EMERGENT_BIDDING_EXEMPTIONS_MARKER_REGEXP = re.compile(
+        r".*Dispensa Emergencial de Licitação", re.IGNORECASE
+    )
     DATE_REGEXP = r"([0-9]{2}/?[0-9]{2}/?2[0-9]{3})"
 
     def bidding_exemptions(self):
@@ -17,10 +20,41 @@ class BaFeiraDeSantana(BaseParser):
             for exemption in self._bidding_exemption_sections()
         ]
 
+        emergent_exemptions = [
+            self._parse_bidding_exemption(em_exemption)
+            for em_exemption in self._emergent_bidding_exemption_sections()
+        ]
+
+        exemptions += emergent_exemptions
+
         return [exemption for exemption in exemptions if self.is_valid(exemption)]
 
     def is_valid(self, exemption):
         return bool(exemption.get("NUMERO"))
+
+    def _emergent_bidding_exemption_sections(self):
+        sections = []
+        errata_regexp = re.compile("errata", re.IGNORECASE)
+        text = self.text
+
+        while True:
+            match = self.EMERGENT_BIDDING_EXEMPTIONS_MARKER_REGEXP.search(text)
+            if not match:
+                break
+
+            # A section can end either if there are 2 newlines, or if another
+            # section begins, whichever comes first.
+            start = match.start()
+            end = text.find("\n\n", start)
+
+            section = text[start:end].strip()
+
+            if not errata_regexp.search(section):
+                sections.append(section)
+
+            text = text[end:]
+
+        return sections
 
     def _bidding_exemption_sections(self):
         sections = []
