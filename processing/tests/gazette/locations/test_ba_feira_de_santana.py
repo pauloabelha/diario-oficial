@@ -45,6 +45,17 @@ class SampleGazetteScenario:
         cls.TEXT = load_gazette(cls.GAZETTE_ID)
         cls.DATA = load_gazette_data(cls.GAZETTE_ID)
 
+    def test_has_no_duplicate_bidding_exemptions(self):
+        bidding_exemptions = BaFeiraDeSantana(self.TEXT).bidding_exemptions()
+        exemptions_ids = [
+            exemption[self.ID_ATTRIBUTE]
+            for exemption in bidding_exemptions
+            if exemption[self.ID_ATTRIBUTE] is not None
+        ]
+        exemptions_ids_unique = list(set(exemptions_ids))
+        assert sorted(exemptions_ids) == sorted(exemptions_ids_unique)
+
+
     def test_has_expected_count_of_bidding_exemptions(self):
         bidding_exemptions_ids = self.DATA["bidding_exemptions_ids"]
         expected_bidding_exemptions_count = len(bidding_exemptions_ids)
